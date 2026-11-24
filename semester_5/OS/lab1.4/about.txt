@@ -1,0 +1,8 @@
+gcc -Wall -Wextra -Werror -pthread a.c -o a
+./a
+
+gcc -Wall -Wextra -Werror -pthread b.c -o b
+./b
+
+gcc -Wall -Wextra -Werror -pthread c.c -o c
+./c

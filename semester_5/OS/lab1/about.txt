@@ -1,0 +1,6 @@
+gcc -Wall -Wextra -Werror -pthread lab1.c -o lab1
+./lab1
+
+cat /proc/self/maps
+
+strace ./lab1
